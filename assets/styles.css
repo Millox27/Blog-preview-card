@@ -1,0 +1,67 @@
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Figtree";
+    font-size: 16px;
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 15rem;
+}
+
+.container {
+    background-color: var(--white);
+    max-width: 300px;
+    width: 90%;
+    border-radius: 3%;
+    text-align: center;
+}
+
+.card {
+    margin-top: 5%;
+    width: 90%;
+    border-radius: 5%;
+}
+
+.learning, .description {
+    text-align: left;
+    margin-left: 5%;
+}
+
+#logo {
+    width: 10%;
+    height: 10%;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+.autor {
+    display: flex;
+    align-items: center;
+}
+.learnd {
+    margin-top: 1rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--yellow);
+    height: 35px;
+    width: 25%;
+    border-radius: 5px;
+ }
+
+ .description p {
+    color: var(--grey);
+ }
