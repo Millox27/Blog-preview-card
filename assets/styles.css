@@ -23,7 +23,7 @@ body {
 
 .container {
     background-color: var(--white);
-    max-width: 300px;
+    max-width: 350px;
     width: 90%;
     border-radius: 3%;
     text-align: center;
