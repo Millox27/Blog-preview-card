@@ -27,6 +27,8 @@ body {
     width: 90%;
     border-radius: 3%;
     text-align: center;
+    border: groove 1px var(--black);
+    box-shadow: 6px 6px;
 }
 
 .card {
