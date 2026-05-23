@@ -1,69 +1,131 @@
 :root {
-    --yellow: hsl(47, 88%, 63%);
-    --white: hsl(0, 0%, 100%);
-    --grey: hsl(0, 0%, 50%);
-    --black: hsl(0, 0%, 7%);
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 50%);
+  --black: hsl(0, 0%, 7%);
 }
 
 * {
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Figtree";
-    font-size: 16px;
-    background-color: var(--yellow);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    margin-top: 15rem;
+  font-family: "Figtree";
+  font-size: 16px;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .container {
-    background-color: var(--white);
-    max-width: 390px;
-    width: 90%;
-    border-radius: 3%;
-    text-align: center;
-    border: groove 1px var(--black);
-    box-shadow: 6px 6px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  max-width: 384px;
+  border-radius: 20px;
+  text-align: left;
+  border: solid 1px var(--black);
+  box-shadow: 8px 8px;
+  gap: 24px;
+  padding: 24px;
 }
 
 .card {
-    margin-top: 5%;
-    width: 90%;
-    border-radius: 5%;
+  border-radius: 10px;
 }
 
-.learning, .description {
-    text-align: left;
-    margin-left: 5%;
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
-#logo {
-    width: 10%;
-    height: 10%;
-    margin-left: 5%;
-    margin-right: 3%;
+#learn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 4px;
+  border-radius: 4px;
+  background-color: var(--yellow);
+  width: 82px;
+  height: 29px;
+  color: var(--black);
+}
+
+#greg,
+#learn {
+  font-weight: 800;
+}
+
+span,
+#learn,
+#greg {
+  font-size: 14px;
+  line-height: 150%;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 150%;
+}
+
+h1:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
+
+p {
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--grey);
 }
 
 .autor {
-    display: flex;
-    align-items: center;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 12px;
+}
+
+#logo {
+  width: 32px;
+  height: 32px;
+}
+/*.learning,
+.description {
+  text-align: left;
+  margin-left: 5%;
+}
+
+#logo {
+  width: 10%;
+  height: 10%;
+  margin-left: 5%;
+  margin-right: 3%;
+}
+
+.autor {
+  display: flex;
+  align-items: center;
 }
 .learnd {
-    margin-top: 1rem;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--yellow);
-    height: 35px;
-    width: 25%;
-    border-radius: 5px;
- }
+  /*margin-top: 1rem;
+  padding: 12px 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellow);
+  height: 35px;
+  width: 25%;
+  border-radius: 4px;
+}
 
- .description p {
-    color: var(--grey);
- }
+.description p {
+  color: var(--grey);
+}
+*/
