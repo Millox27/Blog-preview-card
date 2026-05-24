@@ -41,7 +41,6 @@ body {
   border-radius: 10px;
 }
 
-
 .content {
   display: flex;
   flex-direction: column;
@@ -103,38 +102,15 @@ p {
     max-width: 327px;
     /* solo cambia el ancho en móvil */
   }
-}
+  p {
+    font-size: 14px;
+  }
 
-/*.learning,
-.description {
-  text-align: left;
-  margin-left: 5%;
+  h1 {
+    font-size: 20px;
+  }
+  span,
+  #learn {
+    font-size: 12px;
+  }
 }
-
-#logo {
-  width: 10%;
-  height: 10%;
-  margin-left: 5%;
-  margin-right: 3%;
-}
-
-.autor {
-  display: flex;
-  align-items: center;
-}
-.learnd {
-  /*margin-top: 1rem;
-  padding: 12px 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--yellow);
-  height: 35px;
-  width: 25%;
-  border-radius: 4px;
-}
-
-.description p {
-  color: var(--grey);
-}
-*/
